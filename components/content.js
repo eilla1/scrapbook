@@ -36,6 +36,9 @@ export const formatText = text =>
     if (chunk?.startsWith('```')) {
       return <pre key={i}>{chunk.replace(/```/g, '')}</pre>
     }
+    if (chunk?.startsWith('&gt;')) {
+      return <blockquote key={i}>{chunk.replace(/&gt;/g, '')}</blockquote>
+    }
     if (chunk?.startsWith('`')) {
       return <code key={i}>{chunk.replace(/`/g, '')}</code>
     }

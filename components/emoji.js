@@ -35,7 +35,7 @@ const CustomEmoji = memo(({ name }) => {
             }
           }
           setImage(
-            'https://emoji.slack-edge.com/T0266FRGM/parrot/c9f4fddc5e03d762.gif'
+            'https://emoji.slack-edge.com/T0266FRGM/party-parrot/6dcdaa175e60fe84.gif'
           )
         })
     } catch (e) {}
